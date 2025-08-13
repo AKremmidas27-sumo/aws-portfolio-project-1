@@ -1,2 +1,2 @@
-# AWS S3 + CloudFront Static Website (Portfolio Project 1)
-... (paste will continue; stop when you see EOF) ...
+AWS S3 + CloudFront Static Website (Portfolio Project 1)
+
