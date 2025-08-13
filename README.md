@@ -29,6 +29,9 @@ A fully deployed static website hosted on Amazon S3 and distributed globally via
 ## Author
 Andrew Kremmidas – AWS Solutions Architect Associate
 
+![Uploading IMG_1625 (1).jpg…]()
+
+
 
 # Create local folder
 mkdir s3-cloudfront-site && cd s3-cloudfront-site
