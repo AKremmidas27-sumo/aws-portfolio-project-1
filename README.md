@@ -34,3 +34,6 @@ Andrew Kremmidas – AWS Solutions Architect Associate
 mkdir s3-cloudfront-site && cd s3-cloudfront-site
 
 # Copy your local HTML + README into it
+https://mail.google.com/mail/u/0?ui=2&ik=88596fb210&attid=0.1&permmsgid=msg-f:1840357424973606369&th=198a4353cf4dede1&view=att&zw&disp=safe
+
+
