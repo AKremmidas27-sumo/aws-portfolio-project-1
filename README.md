@@ -32,4 +32,3 @@ Andrew Kremmidas – AWS Solutions Architect Associate
 ![Description of image](IMG_1625.jpg)
 
 
-
