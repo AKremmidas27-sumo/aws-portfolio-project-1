@@ -30,6 +30,8 @@ A fully deployed static website hosted on Amazon S3 and distributed globally via
 Andrew Kremmidas – AWS Solutions Architect Associate
 
 ![Description of image](IMG_1625.jpg)
-
-
-
+![Description of image](IMG_1626.jpg)
+![Description of image](IMG_1627.jpg)
+![Description of image](IMG_1628.jpg)
+![Description of image](IMG_1629.jpg)
+![Description of image](IMG_1631.jpg)
