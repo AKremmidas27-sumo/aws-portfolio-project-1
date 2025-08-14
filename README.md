@@ -20,7 +20,7 @@ Deployment Steps
 1. Create S3 bucket with static hosting enabled
 2. Uploaded 'index html' and '404 HTML' with correct 'ContentType'
 3. Create CloudFront distribution with OAC and link to bucket
-4. Attach SecurityHeadersPolicy
+4. Abiltiy to Attach SecurityHeadersPolicy
 5. Invalidate CloudFront cache after updates
 
 Live Demo
