@@ -10,7 +10,7 @@ AWS Services Used
 - IAM – Bucket policy restricted to CloudFront
 - AWS CLI – Deployment automation
 
-Features
+Key Features
 - Custom 404 error page
 - AWS managed SecurityHeadersPolicy
 - Versioned S3 bucket for rollback
