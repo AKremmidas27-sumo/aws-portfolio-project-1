@@ -30,10 +30,6 @@ Author
 Andrew Kremmidas – AWS Solutions Architect Associate 
 
 ![Description of image](IMG_1625.jpg)
-![Description of image](IMG_1626.jpg)
-![Description of image](IMG_1628.jpg)
-![Description of image](IMG_1629.jpg)
-![Description of image](IMG_1631.jpg)
 
 
 
