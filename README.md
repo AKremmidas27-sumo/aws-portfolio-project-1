@@ -33,9 +33,3 @@ Andrew Kremmidas – AWS Solutions Architect Associate
 
 
 
-# Create local folder
-mkdir s3-cloudfront-site && cd s3-cloudfront-site
-
-# Copy your local HTML + README into it
-
-
