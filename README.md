@@ -26,9 +26,19 @@ Deployment Steps
 Live Demo
 [https://d24lku7z6siz5i.cloudfront.net](https://d24lku7z6siz5i.cloudfront.net)
 
+![IMG_1625](https://github.com/user-attachments/assets/7864035a-69ca-410e-a202-9ea188d69c78)
+
+
+
 Author
 Andrew Kremmidas – AWS Solutions Architect Associate 
 
 ![Description of image](IMG_1625.jpg)
+![IMG_1627](https://github.com/user-attachments/assets/3a3565a6-e91e-4c5b-b9ee-92b6fb4953d6)
+![IMG_1628](https://github.com/user-attachments/assets/c999f13c-9794-4c77-ab98-5851bfefc9ad)
+![IMG_1629](https://github.com/user-attachments/assets/0a89f1be-140c-4cac-bb0f-c9c724f82f97)
+![IMG_1631](https://github.com/user-attachments/assets/c9a8758d-c2b0-461f-97be-f84368a5bca0)
+
+
 
 
