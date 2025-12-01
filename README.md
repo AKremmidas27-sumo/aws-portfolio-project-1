@@ -1,25 +1,25 @@
 # AWS Portfolio Project #1
 ## S3 + CloudFront Secure Static Website (OAC + HTTPS)
 
-### 🎯 What Problem Does This Solve?
+### What Problem Does This Solve?
 Static website hosting with secure global delivery and origin protection.
 
-### 🏗 Architecture Overview
+### Architecture Overview
 <architecture image>
 
-### 🛠 AWS Services Used
+### AWS Services Used
 - Amazon S3 — origin storage
 - Amazon CloudFront — global CDN + HTTPS
 - Origin Access Control (OAC) — blocks direct S3 access
 - AWS CLI — deployment automation
 - (Optional: ACM for custom domain)
 
-### 🔐 Security Features
+### Security Features
 - CloudFront-only access to S3
 - Managed SecurityHeadersPolicy
 - Versioned S3 bucket
 
-### 🚀 Deployment Steps (High-Level)
+### 🚀 Deployment Steps 
 1. Create public-blocked S3 bucket
 2. Upload index.html and 404.html
 3. Create CloudFront distribution with OAC
@@ -28,7 +28,7 @@ Static website hosting with secure global delivery and origin protection.
 
 ### 📸 Deployment Proof
 | Step | Screenshot |
-|------|-----------|
+|------|-----------|+
 | OAC enabled | ![](images/oac.png) |
 | CloudFront Deployed | ![](images/cloudfront.png) |
 | Bucket block public access | ![](images/s3.png) |
