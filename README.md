@@ -1,33 +1,46 @@
-AWS S3 + CloudFront Static Website (Portfolio Project 1)
+# AWS Portfolio Project #1
+## S3 + CloudFront Secure Static Website (OAC + HTTPS)
 
-Overview
-A fully deployed static website hosted on Amazon S3 and distributed globally via Amazon CloudFront, using an Origin Access Control (OAC) for security.
+### 🎯 What Problem Does This Solve?
+Static website hosting with secure global delivery and origin protection.
 
-AWS Services Used 
-- S3 – Static website storage
-- CloudFront – Global CDN with HTTPS
-- ACM – TLS certificate (if using custom domain)
-- IAM – Bucket policy restricted to CloudFront
-- AWS CLI – Deployment automation
+### 🏗 Architecture Overview
+<architecture image>
 
-Key Features
-- Custom 404 error page
-- AWS managed SecurityHeadersPolicy
-- Versioned S3 bucket for rollback
-- Cache-optimized deployment (no-cache HTML, long-cache assets)
+### 🛠 AWS Services Used
+- Amazon S3 — origin storage
+- Amazon CloudFront — global CDN + HTTPS
+- Origin Access Control (OAC) — blocks direct S3 access
+- AWS CLI — deployment automation
+- (Optional: ACM for custom domain)
 
-Deployment Steps
-1. Create S3 bucket with static hosting enabled
-2. Uploaded 'index html' and '404 HTML' with correct 'ContentType'
-3. Create CloudFront distribution with OAC and link to bucket
-4. Abiltiy to Attach SecurityHeadersPolicy
-5. Invalidate CloudFront cache after updates
+### 🔐 Security Features
+- CloudFront-only access to S3
+- Managed SecurityHeadersPolicy
+- Versioned S3 bucket
 
-Live Demo
-[https://d24lku7z6siz5i.cloudfront.net](https://d24lku7z6siz5i.cloudfront.net)
+### 🚀 Deployment Steps (High-Level)
+1. Create public-blocked S3 bucket
+2. Upload index.html and 404.html
+3. Create CloudFront distribution with OAC
+4. Attach SecurityHeadersPolicy
+5. Invalidate cache after update
 
-Author
-Andrew Kremmidas – AWS Solutions Architect Associate 
+### 📸 Deployment Proof
+| Step | Screenshot |
+|------|-----------|
+| OAC enabled | ![](images/oac.png) |
+| CloudFront Deployed | ![](images/cloudfront.png) |
+| Bucket block public access | ![](images/s3.png) |
+| Cache invalidation | ![](images/invalidation.png) |
+
+### 🌍 Live Demo URL
+➡️ https://d24lku7z6siz5i.cloudfront.net/
+
+### 👤 Author
+Andrew Kremmidas  
+AWS Certified Solutions Architect – Associate
+
 
 ![IMG_1625](https://github.com/user-attachments/assets/7864035a-69ca-410e-a202-9ea188d69c78)
 ![IMG_1628](https://github.com/user-attachments/assets/c999f13c-9794-4c77-ab98-5851bfefc9ad)
