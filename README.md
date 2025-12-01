@@ -19,14 +19,14 @@ Static website hosting with secure global delivery and origin protection.
 - Managed SecurityHeadersPolicy
 - Versioned S3 bucket
 
-### 🚀 Deployment Steps 
+### Deployment Steps 
 1. Create public-blocked S3 bucket
 2. Upload index.html and 404.html
 3. Create CloudFront distribution with OAC
 4. Attach SecurityHeadersPolicy
 5. Invalidate cache after update
 
-### 📸 Deployment Proof
+### Deployment Proof
 | Step | Screenshot |
 |------|-----------|+
 | OAC enabled | ![](images/oac.png) |
@@ -34,10 +34,10 @@ Static website hosting with secure global delivery and origin protection.
 | Bucket block public access | ![](images/s3.png) |
 | Cache invalidation | ![](images/invalidation.png) |
 
-### 🌍 Live Demo URL
+### Live Demo URL
 ➡️ https://d24lku7z6siz5i.cloudfront.net/
 
-### 👤 Author
+### Author
 Andrew Kremmidas  
 AWS Certified Solutions Architect – Associate
 
