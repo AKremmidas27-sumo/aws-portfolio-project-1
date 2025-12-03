@@ -22,23 +22,23 @@ Security Features
 * CloudFront managed SecurityHeadersPolicy
 * Versioning enabled for rollback protection (optional but recommended)
 
-Deployment Steps (High-Level)
+Deployment Steps (ADVANCED)
 1. Create private S3 bucket (block all public access)
 2. Upload index.html & 404.html
 3. Create CloudFront distribution using OAC
 4. Apply SecurityHeadersPolicy
 5. Invalidate CloudFront cache after updates
 
-📸 Deployment Proof
+Deployment Proof
 Step	Screenshot
-OAC enabled	[screenshot]
-CloudFront deployed	[screenshot]
-Bucket blocks public access	[screenshot]
-Cache invalidation	[screenshot]
+OAC enabled	
+CloudFront deployed	
+Bucket blocks public access	
+Cache invalidation	
 (Screenshots will be added later — placeholders included.)
 
-🌍 Live Demo
-🔗 https://d24lku7z6siz5i.cloudfront.net/
+Live Demo
+https://d24lku7z6siz5i.cloudfront.net/
 (Available via CloudFront domain — custom domain optional)
 
 Author
