@@ -1,45 +1,48 @@
-# AWS Portfolio Project #1
-## S3 + CloudFront Secure Static Website (OAC + HTTPS)
+AWS Portfolio Project #1
+S3 + CloudFront Secure Static Website (OAC + HTTPS)
+What Problem Does This Solve?
+Securely serve static website content with global low-latency delivery without exposing S3 directly to the public internet.
 
-### What Problem Does This Solve?
-Static website hosting with secure global delivery and origin protection.
+Architecture Overview
+Global content delivery via CloudFront with restricted access to an S3 origin.
 
-### Architecture Overview
-<architecture image>
+User → CloudFront (HTTPS + CDN) → S3 (private origin via OAC)
+S3 bucket is not publicly accessible — only CloudFront can read objects.
 
-### AWS Services Used
-- Amazon S3 — origin storage
-- Amazon CloudFront — global CDN + HTTPS
-- Origin Access Control (OAC) — blocks direct S3 access
-- AWS CLI — deployment automation
-- (Optional: ACM for custom domain)
+🛠 AWS Services Used
+Service	Purpose
+Amazon S3	Private origin for static assets
+Amazon CloudFront	Global CDN + HTTPS
+Origin Access Control (OAC)	Restrict S3 access to CloudFront only
+AWS CLI	Deployment automation
+(Optional) AWS ACM	Custom HTTPS domain support
+Security Features
+* OAC enforced — S3 bucket blocks all public access
+* HTTPS required
+* CloudFront managed SecurityHeadersPolicy
+* Versioning enabled for rollback protection (optional but recommended)
 
-### Security Features
-- CloudFront-only access to S3
-- Managed SecurityHeadersPolicy
-- Versioned S3 bucket
+Deployment Steps (High-Level)
+1. Create private S3 bucket (block all public access)
+2. Upload index.html & 404.html
+3. Create CloudFront distribution using OAC
+4. Apply SecurityHeadersPolicy
+5. Invalidate CloudFront cache after updates
 
-### Deployment Steps 
-1. Create public-blocked S3 bucket
-2. Upload index.html and 404.html
-3. Create CloudFront distribution with OAC
-4. Attach SecurityHeadersPolicy
-5. Invalidate cache after update
+📸 Deployment Proof
+Step	Screenshot
+OAC enabled	[screenshot]
+CloudFront deployed	[screenshot]
+Bucket blocks public access	[screenshot]
+Cache invalidation	[screenshot]
+(Screenshots will be added later — placeholders included.)
 
-### Deployment Proof
-| Step | Screenshot |
-|------|-----------|+
-| OAC enabled | ![](images/oac.png) |
-| CloudFront Deployed | ![](images/cloudfront.png) |
-| Bucket block public access | ![](images/s3.png) |
-| Cache invalidation | ![](images/invalidation.png) |
+🌍 Live Demo
+🔗 https://d24lku7z6siz5i.cloudfront.net/
+(Available via CloudFront domain — custom domain optional)
 
-### Live Demo URL
-➡️ https://d24lku7z6siz5i.cloudfront.net/
-
-### Author
-Andrew Kremmidas  
-AWS Certified Solutions Architect – Associate
+Author
+Andrew Kremmidas AWS Certified Solutions Architect – Associate
 
 
 ![IMG_1625](https://github.com/user-attachments/assets/7864035a-69ca-410e-a202-9ea188d69c78)
