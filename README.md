@@ -9,7 +9,7 @@ Global content delivery via CloudFront with restricted access to an S3 origin.
 User → CloudFront (HTTPS + CDN) → S3 (private origin via OAC)
 S3 bucket is not publicly accessible — only CloudFront can read objects.
 
-🛠 AWS Services Used
+AWS Services Used
 Service	Purpose
 Amazon S3	Private origin for static assets
 Amazon CloudFront	Global CDN + HTTPS
