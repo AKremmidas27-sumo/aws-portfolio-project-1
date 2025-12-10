@@ -41,9 +41,9 @@ Live Demo
 https://d24lku7z6siz5i.cloudfront.net/
 (Available via CloudFront domain — custom domain optional)
 
-Author 
-
-Andrew Kremmidas AWS Certified Solutions Architect – Associate
+## Author 
+Andrew Kremmidas 
+ AWS Certified Solutions Architect – Associate
 
 
 ![IMG_1625](https://github.com/user-attachments/assets/7864035a-69ca-410e-a202-9ea188d69c78)
