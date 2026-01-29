@@ -1,4 +1,4 @@
-AWS Portfolio Project #1 - Andrew Kremmidas - AWS Solutions Architect Associate - 2026
+# AWS Portfolio Project #1 
 
 S3 + CloudFront Secure Static Website (OAC + HTTPS)
 What Problem Does This Solve?
