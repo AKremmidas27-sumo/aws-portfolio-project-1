@@ -1,4 +1,5 @@
 AWS Portfolio Project #1
+
 S3 + CloudFront Secure Static Website (OAC + HTTPS)
 What Problem Does This Solve?
 Securely serve static website content with global low-latency delivery without exposing S3 directly to the public internet.
