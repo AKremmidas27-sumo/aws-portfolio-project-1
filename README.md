@@ -1,10 +1,10 @@
-AWS Portfolio Project #1
+AWS Portfolio Project #1 - Andrew Kremmidas - AWS Solutions Architect Associate - 2026
 
 S3 + CloudFront Secure Static Website (OAC + HTTPS)
 What Problem Does This Solve?
 Securely serve static website content with global low-latency delivery without exposing S3 directly to the public internet.
 
-Architecture Overview
+# Architecture Overview
 Global content delivery via CloudFront with restricted access to an S3 origin.
 
 User → CloudFront (HTTPS + CDN) → S3 (private origin via OAC)
