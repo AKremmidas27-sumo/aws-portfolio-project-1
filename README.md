@@ -10,7 +10,7 @@ Global content delivery via CloudFront with restricted access to an S3 origin.
 User → CloudFront (HTTPS + CDN) → S3 (private origin via OAC)
 S3 bucket is not publicly accessible — only CloudFront can read objects.
 
-AWS Services Used
+# AWS Services Used in Project 
 Service	Purpose
 Amazon S3	Private origin for static assets
 Amazon CloudFront	Global CDN + HTTPS
@@ -23,14 +23,14 @@ Security Features
 * CloudFront managed SecurityHeadersPolicy
 * Versioning enabled for rollback protection (optional but recommended)
 
-Deployment Steps (ADVANCED)
+# Deployment Steps (ADVANCED)
 1. Create private S3 bucket (block all public access)
 2. Upload index.html & 404.html
 3. Create CloudFront distribution using OAC
 4. Apply SecurityHeadersPolicy
 5. Invalidate CloudFront cache after updates
 
-Deployment Proof
+# Deployment Proof
 Step	Screenshot
 OAC enabled	
 CloudFront deployed	
@@ -38,7 +38,7 @@ Bucket blocks public access
 Cache invalidation	
 (Screenshots will be added later — placeholders included.)
 
-Live Demo
+# Live Demo
 https://d24lku7z6siz5i.cloudfront.net/
 (Available via CloudFront domain — custom domain optional)
 
